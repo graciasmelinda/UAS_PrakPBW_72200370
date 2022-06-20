@@ -14,7 +14,7 @@ class MahasiswaSeeder extends Seeder
     {
         $faker = Faker::create('id_ID');
 
-        for($i = 1; $i <= 30; $i++)
+        for($i = 1; $i <= 100; $i++)
         {
             DB::table('mahasiswa')->insert([
                 'nim' => 72200000 +$i,
